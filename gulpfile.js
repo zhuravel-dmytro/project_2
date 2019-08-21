@@ -1,10 +1,16 @@
-var less = require('gulp-less');
-var path = require('path');
- 
-gulp.task('less', function () {
-  return gulp.src('app/less/**/*.less')
-    .pipe(less({
-      paths: [ path.join(__dirname, 'less', 'includes') ]
-    }))
-    .pipe(gulp.dest('app/css'));
+
+var gulp = require('gulp'),
+less = require('gulp-less');
+
+gulp.task('mytask', function() {
+console.log('перевірка');
 });
+
+gulp.task('less', function(){
+return gulp.src('./app/less/**/*.less') 
+    .pipe(less())
+    .pipe(gulp.dest('./app/css'))
+});
+
+
+gulp.task('default', gulp.parallel('less'));

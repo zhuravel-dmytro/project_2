@@ -1,0 +1,24 @@
+{
+  "name": "project_2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "gulp-less": "^4.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhuravel22/project_2.git"
+  },
+  "author": "Dimas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhuravel22/project_2/issues"
+  },
+  "homepage": "https://github.com/zhuravel22/project_2#readme"
+}
