@@ -11,13 +11,17 @@ body{
  width: 100%;
 }
 .wrapper{
-    max-width: 1200px;
+    min-height: 100%;
+    margin: 0 auto;
+}
+.container{
+    max-width: 1150px;
     margin: 0 auto;
 }
 .header{
-    margin-top: 15px;
-    display: flex;
-    justify-content: space-between;
+    padding-top: 15px;
+    position: absolute;
+    width: 100%;
 }   
 .left-logo{
     .logo{
@@ -33,6 +37,7 @@ body{
 .nav-menu{
     display: flex;
     list-style: none;
+    justify-content: flex-end;
 
     li {
         margin-top: 15px;
@@ -57,9 +62,10 @@ body{
 }
 
 .first-block{
-    border-bottom: 1px solid red;
+    padding: 200px 0 150px;
+    background-image: url(../images/block1.jpg);
+    background-size: cover;
     .welcome-info{
-        margin: 100px 0 120px;
         max-width: 400px;
         h2{
             font-size: 32px;
