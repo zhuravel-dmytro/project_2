@@ -10,9 +10,76 @@
 body{
  width: 100%;
 }
-
+.wrapper{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.header{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}   
+.left-logo{
+    .logo{
+        float: left;
+    }
+    .logo-p{
+        margin: 15px;
+        float: left;
+        font-family: 'montserratbold';
+        font-size: 16px;
+    }
+}
 .nav-menu{
     display: flex;
-    justify-content: space-around;
     list-style: none;
+
+    li {
+        margin-top: 15px;
+        a{
+            text-transform: uppercase;
+            font-family: 'montserratbold';
+            font-size: 14px;
+            text-decoration: none;
+            margin-left: 30px;
+            padding-bottom: 3px;
+            color: #2b2a2c;
+            &:hover{
+                border-bottom: 3px solid #2b2a2c;
+            }
+        }
+    }
+    .like-button{
+        border: 2px solid #2b2a2c;
+        border-radius: 20px 20px;
+        padding: 5px 20px;
+    }
+}
+
+.first-block{
+    border-bottom: 1px solid red;
+    .welcome-info{
+        margin: 100px 0 120px;
+        max-width: 400px;
+        h2{
+            font-size: 32px;
+            font-family: 'montserratlight';
+        }
+        h1{
+            font-size: 45px;
+            font-family: 'montserratbold';
+        }
+        p{
+            font-size: 18px;
+            font-family: 'montserratregular';
+        }
+        .fa{
+            margin-right: 10px;
+            margin-top: 5px;
+        }
+        .button{
+            font-family: 'montserratregular';
+            font-size: 16px;
+        }
+    }
 }

@@ -15,16 +15,11 @@ var   gulp = require('gulp'),
 		// autoprefixer=require('gulp-autoprefixer');
 		// spritesmith=require('gulp.spritesmith');
 
-gulp.task('hello', function( ){
-	console.log('Hello World');
-	}); 
-	
-	
 	 gulp.task('less', function( ){
 	 	return gulp.src('app/less/**/*.less')
 			.pipe(less())
-            .pipe(autoprefixer(['last 15 version', '> 1%', 'ie 8', 'ie 7' ],
-            {cascade:true}))
+            // .pipe(autoprefixer(['last 15 version', '> 1%', 'ie 8', 'ie 7' ],
+            // {cascade:true}))
 			.pipe(gulp.dest('app/css'))
 			.pipe(browserSync.reload({stream:true})); 
 			
