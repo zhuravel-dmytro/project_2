@@ -24,12 +24,17 @@ body{
     width: 100%;
 }   
 .left-logo{
-    .logo{
-        float: left;
+    float: left;
+    // .logo{
+    //     float: left;
+    // }
+    .fa:hover{
+        transform: rotate(180deg)
     }
     .logo-p{
-        margin: 15px;
-        float: left;
+        margin-left: 15px;
+        // float: left;
+        display: inline;
         font-family: 'montserratbold';
         font-size: 16px;
     }
@@ -82,7 +87,7 @@ body{
         .fa{
             margin-right: 20px;
             margin-top: 5px;
-            color: #2b2a2c;
+            color: #222c2e;
             &:hover{
                 transform: translateY(-5px);
             }
@@ -92,13 +97,16 @@ body{
             font-size: 16px;
             text-transform: uppercase;
             padding: 15px 40px;
-            border: 1px solid #2b2a2c;
+            border: 1px solid #222c2e;
             border-radius: 30px 30px;
-            margin: 10px 10px 0 0;
+            margin: 20px 10px 0 0;
             &:hover{
-                background: #2b2a2c;
+                background: #222c2e;
                 color: #fff;
             }
+        }
+        .animated{
+            animation-delay: 1.5s;
         }
     }
 }
