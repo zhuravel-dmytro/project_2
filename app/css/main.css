@@ -59,6 +59,7 @@ body {
   padding: 200px 0 150px;
   background-image: url(../images/block1.jpg);
   background-size: cover;
+  background-attachment: fixed;
 }
 .first-block .welcome-info {
   max-width: 400px;
@@ -98,4 +99,15 @@ body {
 }
 .first-block .welcome-info .animated {
   animation-delay: 1.5s;
+}
+.aboutMe {
+  padding: 300px 0;
+  height: 100%;
+  width: 100%;
+  background-image: url(../images/clouds-cloudy-daylight-1054178.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+.ww {
+  padding: 100px 0;
 }
