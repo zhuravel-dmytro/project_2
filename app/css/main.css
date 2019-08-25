@@ -21,11 +21,15 @@ body {
 .left-logo {
   float: left;
 }
+.left-logo .fa {
+  color: #fff;
+}
 .left-logo .fa:hover {
   transform: rotate(180deg);
 }
 .left-logo .logo-p {
   margin-left: 15px;
+  color: #fff;
   display: inline;
   font-family: 'montserratbold';
   font-size: 16px;
@@ -45,19 +49,22 @@ body {
   text-decoration: none;
   margin-left: 30px;
   padding-bottom: 3px;
-  color: #2b2a2c;
+  color: #fff;
 }
 .nav-menu li a:hover {
-  border-bottom: 3px solid #2b2a2c;
+  border-bottom: 3px solid #fff;
 }
 .nav-menu .like-button {
-  border: 2px solid #2b2a2c;
+  border: 2px solid #fff;
   border-radius: 20px 20px;
   padding: 5px 20px;
 }
+.animated {
+  animation-delay: 0.5s;
+}
 .first-block {
-  padding: 200px 0 150px;
-  background-image: url(../images/block1.jpg);
+  padding: 250px 0 250px;
+  background-image: url(../images/blockOne.jpg);
   background-size: cover;
   background-attachment: fixed;
 }
@@ -67,19 +74,22 @@ body {
 .first-block .welcome-info h2 {
   font-size: 32px;
   font-family: 'montserratlight';
+  color: #fff;
 }
 .first-block .welcome-info h1 {
   font-size: 45px;
   font-family: 'montserratbold';
+  color: #fff;
 }
 .first-block .welcome-info p {
   font-size: 18px;
   font-family: 'montserratregular';
+  color: #fff;
 }
 .first-block .welcome-info .fa {
   margin-right: 20px;
   margin-top: 5px;
-  color: #222c2e;
+  color: #fff;
 }
 .first-block .welcome-info .fa:hover {
   transform: translateY(-5px);
@@ -89,25 +99,19 @@ body {
   font-size: 16px;
   text-transform: uppercase;
   padding: 15px 40px;
-  border: 1px solid #222c2e;
+  border: none;
   border-radius: 30px 30px;
   margin: 20px 10px 0 0;
+  outline: none;
 }
 .first-block .welcome-info .button:hover {
-  background: #222c2e;
+  background: #A44A3C;
   color: #fff;
-}
-.first-block .welcome-info .animated {
-  animation-delay: 1.5s;
 }
 .aboutMe {
   padding: 300px 0;
-  height: 100%;
-  width: 100%;
-  background-image: url(../images/clouds-cloudy-daylight-1054178.jpg);
-  background-size: cover;
-  background-attachment: fixed;
 }
 .ww {
   padding: 100px 0;
+  background: #164756;
 }
