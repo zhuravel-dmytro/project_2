@@ -59,9 +59,6 @@ body {
   border-radius: 20px 20px;
   padding: 5px 20px;
 }
-.animated {
-  animation-delay: 0.5s;
-}
 .first-block {
   padding: 250px 0 250px;
   background-image: url(../images/blockOne.jpg);
@@ -108,10 +105,31 @@ body {
   background: #A44A3C;
   color: #fff;
 }
-.aboutMe {
-  padding: 300px 0;
-}
-.ww {
+.line-block {
   padding: 100px 0;
-  background: #164756;
+  background: #061014;
+}
+.line-block p {
+  color: #fff;
+  text-align: center;
+  font-family: 'montserratlight';
+  font-size: 20px;
+}
+.line-block .animated {
+  animation-delay: 3s;
+  animation-duration: 3s;
+}
+.aboutMe {
+  padding: 50px 0;
+  opacity: 0.8;
+}
+.gallery {
+  padding: 350px 0;
+  background: #cccc;
+}
+.contacts {
+  padding: 250px 0;
+  background: url(../images/kurt-cotoaga-cqbLg3lZEpk-unsplash.jpg) no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
