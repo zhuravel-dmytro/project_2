@@ -21,10 +21,10 @@ body {
 .left-logo {
   float: left;
 }
-.left-logo .fa {
+.left-logo .fas {
   color: #fff;
 }
-.left-logo .fa:hover {
+.left-logo .fas:hover {
   transform: rotate(180deg);
 }
 .left-logo .logo-p {
@@ -83,12 +83,12 @@ body {
   font-family: 'montserratregular';
   color: #fff;
 }
-.first-block .welcome-info .fa {
+.first-block .welcome-info .fab {
   margin-right: 20px;
   margin-top: 5px;
   color: #fff;
 }
-.first-block .welcome-info .fa:hover {
+.first-block .welcome-info .fab:hover {
   transform: translateY(-5px);
 }
 .first-block .welcome-info .button {
@@ -107,7 +107,7 @@ body {
 }
 .line-block {
   padding: 100px 0;
-  background: #061014;
+  background: #032429;
 }
 .line-block p {
   color: #fff;
@@ -132,4 +132,17 @@ body {
   background: url(../images/kurt-cotoaga-cqbLg3lZEpk-unsplash.jpg) no-repeat;
   background-attachment: fixed;
   background-size: cover;
+}
+.footer {
+  background: #032429;
+  padding: 50px 0;
+  text-align: center;
+}
+.footer .fab {
+  margin-right: 20px;
+  margin-top: 5px;
+  color: #fff;
+}
+.footer .fab:hover {
+  transform: scale(1.2);
 }
