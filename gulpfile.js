@@ -14,7 +14,7 @@ var gulp = require('gulp'),
 			
 	});
 	 
-	 
+	
 	gulp.task('browser-sync', function(){
 		  browserSync({
 			  server:{
@@ -23,9 +23,13 @@ var gulp = require('gulp'),
 				  notify:false
 		  });
 	});
-	
+	gulp.task('html', function(){
+		return gulp.src('app/*.html')
+		.pipe(browserSync.reload({stream:true})); 
+	});
 	gulp.task('watch', function(){
-		gulp.watch('app/less/**/*.less', gulp.parallel('less'))
+		gulp.watch('app/less/**/*.less', gulp.parallel('less'));
+		gulp.watch('app/*.html', gulp.parallel('html'))
 	});
 
 	gulp.task('default', gulp.parallel('browser-sync', 'watch'));
