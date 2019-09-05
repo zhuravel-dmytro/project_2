@@ -124,11 +124,19 @@ body {
   opacity: 0.8;
 }
 .gallery {
-  padding: 350px 0;
-  background: #cccc;
+  padding: 10% 0;
+  background: #F8F6F8;
+}
+.gallery .img-gallery {
+  width: 100%;
+  display: block;
+  margin-bottom: 5%;
+}
+.gallery .img-gallery:hover {
+  transform: translateY(-10px);
 }
 .contacts {
-  padding: 250px 0;
+  padding: 200px 0;
   background: url(../images/kurt-cotoaga-cqbLg3lZEpk-unsplash.jpg) no-repeat;
   background-attachment: fixed;
   background-size: cover;
